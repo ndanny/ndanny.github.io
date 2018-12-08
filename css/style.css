@@ -114,13 +114,16 @@ h2, h3, h4 {
   display: inline-block;
   padding: 5px;
   width: 100%;
-  margin-bottom: 0.5em;
+  margin: 0.3em;
   color: #1e7ce8;
   border: 2px solid #1e7ce8;
   text-align: center;
   outline: none;
   text-decoration: none;
   font-weight: 400;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
 }
@@ -129,12 +132,35 @@ h2, h3, h4 {
 .ghost-button:hover,
 .ghost-button:active {
   background-color: #1e7ce8;
-  background-color: #1e7ce8;
-  border-color: #1e7ce8;
   border-color: #1e7ce8;
   color: #ffffff;
   transition: background-color 0.3s ease-in,
               border-color 0.3s ease-in;
+}
+
+/* Design buttons */
+.design-button {
+  display: inline-block;
+  padding: 1em;
+  border: 2px solid #8E2DE2;
+  color: #8E2DE2;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  background: #8E2DE2;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.design-button:hover,
+.design-button:active {
+  background-color: #34e89e;
+  border-color: #34e89e;
+  color: #ffffff;
 }
 
 /* Organization title element */
