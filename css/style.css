@@ -9,7 +9,7 @@ html {
 /* Styling the body */
 body {
   margin: 0px auto;
-  background: #131a26;
+  background: #0B121E;
   font-family: 'Assistant', sans-serif;
   font-size: 1em;
   font-weight: 200;
@@ -204,19 +204,10 @@ h2, h3, h4 {
   width: 3em;
 }
 
-/* Sketch disp container */
-.disp-container {
-  width: 100%;
-}
-
-/* Sketch image */
-.sketch-img {
-  width: 100%;
-}
-
 /* Sketch header */
 .sketch-header {
-  background: linear-gradient(to right, #e52def 0%, #19dcff 100%);
+  background: linear-gradient(to right, #7F00FF 0%, #E100FF 100%);
+  font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -226,6 +217,29 @@ h2, h3, h4 {
 hr {
   margin-top: 0;
   border: 1px dashed #a0a0a0;
+}
+
+/* Sketch disp container */
+.disp-container {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* A tile */
+.sketch-tile {
+  width: 100%;
+  margin: 0.5em;
+  -webkit-filter: drop-shadow(-5px 5px 2px #0D0D0D);
+  filter: drop-shadow(-5px 5px 2px #0D0D0D);
+}
+
+/* An icon */
+.sketch-icon {
+  width: 60%;
+  margin: 0.5em;
+  -webkit-filter: drop-shadow(-5px 5px 2px #0D0D0D);
+  filter: drop-shadow(-5px 5px 2px #0D0D0D);
 }
 
 /* Columns and stuff */
@@ -298,5 +312,15 @@ hr {
     text-align: right;
     float: right;
     width: 30%;
+  }
+
+  .sketch-tile {
+    width: 48%;
+    margin: 0.5em;
+  }
+
+  .sketch-icon {
+    width: 20%;
+    margin: 0.5em;
   }
 }
