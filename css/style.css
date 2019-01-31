@@ -142,7 +142,7 @@ h2, h3, h4 {
 .design-button {
   display: inline-block;
   padding: 0.5em;
-  width: 50%;
+  width: 100%;
   border: 2px solid #8E2DE2;
   color: #8E2DE2;
   text-align: center;
@@ -275,6 +275,10 @@ hr {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+
+  .design-button {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -320,5 +324,9 @@ hr {
   .sketch-icon {
     width: 20%;
     margin: 0.5em;
+  }
+
+  .design-button {
+    width: 25%;
   }
 }
