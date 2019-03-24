@@ -86,7 +86,7 @@ body {
 .footer {
     bottom: 0;
     font-size: 0.8em;
-    font-style: italic;
+    color: #838383;
 }
 
 blockquote {
